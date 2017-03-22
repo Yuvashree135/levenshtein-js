@@ -1,6 +1,6 @@
 {
   "name": "levenshtein-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A levenshtein distance implementation to find the similarity score between two sentences.",
   "main": "src/levenshtein.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "url": "git+https://github.com/MICKEYGOOFY17/levenshtein-js.git"
   },
   "keywords": [
-    "levenshtein"
+    "levenshtein",
+    "string compare",
+    "levenshtein distance"
   ],
   "author": "yuvashree",
   "license": "Apache-2.0",
