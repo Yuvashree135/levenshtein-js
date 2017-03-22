@@ -3,10 +3,11 @@
 
 ## INSTALL: ##
 
-  $ npm install levenshtein
+  `$ npm install levenshtein`
 
 ## USAGE: ##
 
+```javascript
 let logger = require('log4js').getLogger();
 
 let levenshtein = require('./../src/levenshtein.js');
@@ -19,4 +20,5 @@ let difference = 0;
 difference = levenshtein(sentence1, sentence2);
 
 // difference will be 19
-logger.debug('the number of insertion,deletion or substitutions to be made: '+difference);
+logger.debug('the number of insertion,deletion or substitutions to be made: '+difference);`
+```
