@@ -8,17 +8,18 @@
 ## USAGE: ##
 
 ```javascript
-let logger = require('log4js').getLogger();
+const logger = require('log4js').getLogger();
 
-let levenshtein = require('./../src/levenshtein.js');
+const levenshtein = require('levenshtein-js');
 
-let sentence1 = 'Hi, this is levenshtein example';
-let sentence2 = 'hi, this is example of levenshtein';
+let sentence1 = 'levenshtein';
+let sentence2 = 'levenstei';
 
-let difference = 0;
+let difference = levenshtein(sentence1, sentence2);
 
-difference = levenshtein(sentence1, sentence2);
-
-// difference will be 19
+// difference will be 2
 logger.debug('the number of insertion,deletion or substitutions to be made: '+difference);`
 ```
+## WORKING: ##
+
+ In the above example, the character 'h' will be deleted and the character 'n' will be inserted. Here 1 insertion and 1 deletion so the difference is 2.
