@@ -1,0 +1,30 @@
+{
+  "name": "levenshtein",
+  "version": "1.0.0",
+  "description": "A levenshtein distance implementation to find the similarity score between two sentences.",
+  "main": "src/levenshtein.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MICKEYGOOFY17/levenshtein-js.git"
+  },
+  "keywords": [
+    "levenshtein"
+  ],
+  "author": "yuvashree",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MICKEYGOOFY17/levenshtein-js/issues"
+  },
+  "homepage": "https://github.com/MICKEYGOOFY17/levenshtein-js#readme",
+  "dependencies": {
+    "log4js": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
