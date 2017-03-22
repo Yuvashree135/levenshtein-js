@@ -1,6 +1,6 @@
 {
   "name": "levenshtein-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A levenshtein distance implementation to find the similarity score between two sentences.",
   "main": "src/levenshtein.js",
   "scripts": {
