@@ -3,7 +3,7 @@
 
 ## INSTALL: ##
 
-  `$ npm install levenshtein`
+  `$ npm install levenshtein-js`
 
 ## USAGE: ##
 
